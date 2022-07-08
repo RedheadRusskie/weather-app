@@ -30,5 +30,5 @@ class Forecast {
     const weather = await this.getWeather(cityDetails.Key);
     
     return { cityDetails, weather };
-  };
+  }
 }
