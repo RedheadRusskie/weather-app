@@ -7,4 +7,17 @@ body {
 body .container {
   max-width: 400px;
 }
+
+body .container .icon-container {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+  z-index: 5;
+}
+
+body .container img {
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
